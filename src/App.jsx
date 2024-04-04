@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import "./styles.css";
 
 export const userData = {
@@ -27,7 +27,7 @@ function App() {
   );
 }
 
-=======
+
 import ParentComponent from "./ParentComponent";
 import "./styles.css";
 
@@ -40,5 +40,4 @@ const App = () => {
   );
 };
 
->>>>>>> 2c8bb7fcdb80d0e7810c09128a84721b2470d6b0
 export default App;
