@@ -6,12 +6,17 @@
   "main": "src/index.tsx",
   "dependencies": {
     "react": "18.2.0",
+<<<<<<< HEAD
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1"
+=======
+    "react-dom": "18.2.0"
+>>>>>>> 2c8bb7fcdb80d0e7810c09128a84721b2470d6b0
   },
   "devDependencies": {
     "@types/react": "18.2.38",
     "@types/react-dom": "18.0.9",
+<<<<<<< HEAD
     "loader-utils": "3.2.1",
     "typescript": "4.4.2"
   },
@@ -23,3 +28,21 @@
   },
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
+=======
+    "typescript": "4.4.2",
+    "vite": "^5.0.11",
+    "@vitejs/plugin-react": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
+>>>>>>> 2c8bb7fcdb80d0e7810c09128a84721b2470d6b0
